@@ -1,0 +1,58 @@
+body{
+    padding-left: 15%;
+    padding-right:15%
+}
+.nav_bar{
+font-family: Roboto, Arial, sans-serif;
+color: #747474;
+display:flex;
+align-items: center;
+}
+.logo {
+   margin-left:0.75%;
+    margin-top:0.25%;
+}
+.docplanner_header{
+    display:flex;
+    /*position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;*/
+}
+
+.nav_bar ul{
+    display:flex;
+    align-items: center;
+    align-content:center;
+    list-style-type: none;
+}
+.nav_bar li{
+    padding-left: 10%;
+    padding-right:10%;    
+}
+.nav_bar ul li a{
+    text-decoration: none;
+    color: #747474;
+
+}
+.nav_bar ul li a:hover{
+    color: #00b39b;
+
+}
+.second_sec{
+   padding-top:0.5%; 
+}
+h1 {
+    font-size: 2.125rem;
+    color: #00b39b;
+    font-family: Work Sans, Arial, sans-serif;
+    font-weight: 300;
+}
+.first_p{
+    margin-left:10%;
+}
+.par{
+    display:flex;
+    align-items: center;
+    align-content:center;
+}
