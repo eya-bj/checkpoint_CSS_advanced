@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Docplanner Group</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="icon" type="image/x-icon" href="https://www.docplanner.com/img/logo.png">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
 </head>
 <body>
     <section class="docplanner_header">
@@ -13,15 +17,15 @@
         </div>
         <navbar class="nav_bar">
             <ul>
-                <li><a href="#About us">About us</a></li>
-                <li><a href="#Carrer">Carrer</a></li>
-                <li><a href="#Departments">Departments </a></li>
+                <li><a href="https://www.docplanner.com/">About us</a></li>
+                <li><a href="https://www.docplanner.com/career">Carrer</a></li>
+                <li><a href="https://www.docplanner.com/department?dep=marketing">Departments </a></li>
             </ul>
         </navbar>
     </section>
     <section class="second_sec">
         <center>
-        <img src="https://www.docplanner.com/img/logo.png"alt="logo" width="2.5%">
+        <img src="https://www.docplanner.com/img/logo.png"alt="logo" width="5%">
         <h1>Making the healthcare experience more human</h1>
         <div class="par">
             <div>
@@ -38,9 +42,9 @@
         </center>   
     </section>
     <section>
-        <div>
+        <div class="bloc">
             <div>
-                <div>
+                <div class="div_1">
                     <div>
                         <img src="https://www.docplanner.com/icons/icon-patients.svg" alt="img patient">
                         <h1>For patients</h1>
@@ -66,7 +70,7 @@
                     </div>
                 </div>
             </div>
-            <div>
+            <div class="div_2">
                 <div>
                     <div>
                         <img src="https://www.docplanner.com/icons/icon-doctors.svg">
@@ -93,7 +97,7 @@
                     </div>
                 </div>
             </div>
-            <div>
+            <div class="div_3">
                 <div>
                     <div>
                         <img src="https://www.docplanner.com/icons/icon-clinics.svg">
@@ -130,92 +134,47 @@
         </div>
     </section>
     <section>
-       <h1>We are a global company <br>with local culture</h1> 
-       <ul>
-        <li>
-           <a href="https://www.jameda.de/" target="_blank" >
-            <img src="https://www.docplanner.com/logos/logo-jameda.svg">
-           </a>
-        </li>
-        <li>
-            <a href="https://www.tuotempo.com/" target="_blank" >
-             <img src="https://www.docplanner.com/logos/logo-tuotempo.svg">
-            </a>
-        </li>
-        <li>
-            <a href="https://www.gipo.it/" target="_blank" >
-             <img src="https://www.docplanner.com/logos/logo-gipo-primary.svg">
-            </a>
-        </li>
-        <li>
-            <a href="https://clinic-cloud.com/" target="_blank" ></a>
-             <img src="https://www.docplanner.com/logos/logo-clinicloud.svg">
-            </a>
-        </li>
-        <li>
-            <a href="https://feegowclinic.com.br/" target="_blank" ></a>
-             <img src="https://www.docplanner.com/logos/logo-feegow.svg">
-            </a>
-        </li>
-       </ul>
-    </section>
-    <section>
-        <div>
-            <div>
-                <header>
-                    <h1>The world's biggest <br> healthcare platform</h1>
-                    <p>We work from 9 offices all over the world, bringing Docplanner Group to life in 13 countries.</p>
-                </header>
-                <div>
-                    <div>
-                        <div>
-                            <div>
-                                <div>
-                                    <div>
-                                        <img src="https://www.docplanner.com/img/flag.png">
-                                        <h3>Leader in 13 countries</h3>
-                                        <p>Germany, Turkey, Colombia, Czech Republic, Portugal, Argentina, Peru and Chile</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div>
-                            <div>
-                                <div>
-                                    <div>
-                                        <img src="https://www.docplanner.com/img/visits.png">
-                                        <h3>22,000,000 <br> appointments</h3>
-                                        <p>booked last month</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div>
-                            <div>
-                                <div>
-                                    <div>
-                                        <img src="https://www.docplanner.com/img/patients.png">
-                                        <h3>90,000,000 <br> patients</h3>
-                                        <p>visit our websites each month </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div>
-                            <div>
-                                <div>
-                                    <div>
-                                        <img src="https://www.docplanner.com/img/doctors.png">
-                                        <h3>260,000<br>active doctors</h3>
-                                        <p>trust our solutions</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+        <header class="info">
+            <h1>
+                    Improve the lives of millions. <br> Change yours forever.
+            </h1>
+            <P>
+                More than 2800 team mates share our same vision, goals and passion. With offices in Warsaw, Barcelona, Munich, Istanbul, Rome, Rio, Bologna, Mexico City and Curitiba, our search for great talent never stops.
+            </P>
+        </header>
+        <div class="card container">
+            <div class="card">
+                <img src="https://www.docplanner.com/images/warsaw.png" alt="warsaw";>
+                <div class="card_content">
+                    <p>Warsaw</p>
+                    <button type="button" onclick="window.location.href='https://www.docplanner.com/career?&loc=poland#jobs-offers';">see openings </button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://www.docplanner.com/images/barcelona.png" alt="barcelona";>
+                <div class="card_content">
+                    <p>Barcelona</p>
+                    <button type="button" onclick="window.location.href='https://www.docplanner.com/career?&loc=spain#jobs-offers';">see openings </button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://www.docplanner.com/images/munich.png" alt="munich";>
+                <div class="card_content">
+                    <p>Munich</p>
+                    <button type="button" onclick="window.location.href='https://www.docplanner.com/career?&loc=germany#jobs-offers';">see openings </button>
                 </div>
             </div>
         </div>
     </section>
+    <section>
+        <header class="join_us">
+            <h1> Sound interesting? Join us now!</h1>
+            <button type="button" onclick="window.location.href='https://www.docplanner.com/career';"class="btn">See all current openings</a>
+        </header>
+    </section>
+    <footer class="footer">
+        <p>We are leaders in 13 countries: Poland, Turkey, Spain, Italy, Germany, Czech Republic, Portugal, Mexico, Colombia, Brazil, Argentina, Peru and Chile
+        <br>www.docplanner.com © 2024</p>
+    </footer>
 </body>
 </html>
